@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table ref="$A$1:$D$24" displayName="ResultSet" name="ResultSet" id="4" xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><tableColumns count="4"><tableColumn name="Unidad Organizacional" id="1"/><tableColumn name="Contacto" id="2"/><tableColumn name="Tipo" id="3"/><tableColumn name="Fecha" id="4"/></tableColumns><tableStyleInfo name="TableStyleMedium9" showColumnStripes="false" showRowStripes="true"/></table>

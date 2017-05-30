@@ -1,0 +1,4 @@
+-Dosgi.requiredJavaVersion=1.5 -Xms50m -Xmx600m -XX:MaxPermSize=512M
+C0A23873E0B16EBC6B26ECA7E1
+
+dataformGenerator

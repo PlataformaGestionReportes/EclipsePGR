@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="10" uniqueCount="10"><si><t>Nombre</t></si><si><t>Apellido</t></si><si><t>Email</t></si><si><t>Rol</t></si><si><t>Cargo</t></si><si><t>Actores</t></si><si><t>&lt;start&gt;</t></si><si><t>SELECT rol.idRol, actor.idActor, actor.nombre, actor.apellido, actor.email, rol.nombre, rol.descripcion FROM rol JOIN actor JOIN actorrol ON (actorrol.actor=actor.idActor AND actorrol.rol=rol.idRol)</t></si><si><t>4</t></si><si><t>2</t></si></sst>

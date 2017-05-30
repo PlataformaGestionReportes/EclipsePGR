@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table ref="$A$1:$E$24" displayName="ResultSet" name="ResultSet" id="1" xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><tableColumns count="5"><tableColumn name="Nombre" id="1"/><tableColumn name="Apellido" id="2"/><tableColumn name="Email" id="3"/><tableColumn name="Rol" id="4"/><tableColumn name="Cargo" id="5"/></tableColumns><tableStyleInfo name="TableStyleMedium9" showColumnStripes="false" showRowStripes="true"/></table>

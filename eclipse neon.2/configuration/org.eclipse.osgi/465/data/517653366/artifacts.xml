@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='E:\eclipse neon.2\.eclipseextension' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1495776137856'/>
+    <property name='org.eclipse.update.site.policy' value='USER-EXCLUDE'/>
+    <property name='org.eclipse.update.site.list' value=''/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='25'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swing' version='1.9.0.201608251253'>
+      <properties size='2'>
+        <property name='artifact.size' value='1466151'/>
+        <property name='download.size' value='1466151'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/org.eclipse.wb.swing_1.9.0.201608251253.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\org.eclipse.wb.swing_1.9.0.201608251253.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swing.FormLayout.lib' version='1.9.0.201608251253'>
+      <properties size='2'>
+        <property name='artifact.size' value='414380'/>
+        <property name='download.size' value='414380'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/org.eclipse.wb.swing.FormLayout.lib_1.9.0.201608251253.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\org.eclipse.wb.swing.FormLayout.lib_1.9.0.201608251253.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swing.FormLayout' version='1.9.0.201608251253'>
+      <properties size='2'>
+        <property name='artifact.size' value='310862'/>
+        <property name='download.size' value='310862'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/org.eclipse.wb.swing.FormLayout_1.9.0.201608251253.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\org.eclipse.wb.swing.FormLayout_1.9.0.201608251253.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='customplugin' version='1.0.0.201702221655'>
+      <properties size='2'>
+        <property name='artifact.size' value='130189'/>
+        <property name='download.size' value='130189'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/customplugin_1.0.0.201702221655.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\customplugin_1.0.0.201702221655.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tooldataform.diagram.custom' version='1.0.0.201702221655'>
+      <properties size='2'>
+        <property name='artifact.size' value='55397'/>
+        <property name='download.size' value='55397'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/tooldataform.diagram.custom_1.0.0.201702221655.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\tooldataform.diagram.custom_1.0.0.201702221655.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swing.databinding' version='1.9.0.201608251253'>
+      <properties size='2'>
+        <property name='artifact.size' value='317771'/>
+        <property name='download.size' value='317771'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/org.eclipse.wb.swing.databinding_1.9.0.201608251253.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\org.eclipse.wb.swing.databinding_1.9.0.201608251253.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swt' version='1.9.0.201608251253'>
+      <properties size='2'>
+        <property name='artifact.size' value='917877'/>
+        <property name='download.size' value='917877'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/org.eclipse.wb.swt_1.9.0.201608251253.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\org.eclipse.wb.swt_1.9.0.201608251253.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swing.jsr296' version='1.9.0.201608251253'>
+      <properties size='2'>
+        <property name='artifact.size' value='29960'/>
+        <property name='download.size' value='29960'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/org.eclipse.wb.swing.jsr296_1.9.0.201608251253.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\org.eclipse.wb.swing.jsr296_1.9.0.201608251253.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='patrones.editor' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='355660'/>
+        <property name='download.size' value='355660'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/patrones.editor_1.0.0.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\patrones.editor_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.xwt' version='1.9.0.201608251253'>
+      <properties size='2'>
+        <property name='artifact.size' value='1407229'/>
+        <property name='download.size' value='1407229'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/org.eclipse.wb.xwt_1.9.0.201608251253.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\org.eclipse.wb.xwt_1.9.0.201608251253.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tooldataform.edit' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='200328'/>
+        <property name='download.size' value='200328'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/tooldataform.edit_1.0.0.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\tooldataform.edit_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swing.MigLayout' version='1.9.0.201608251253'>
+      <properties size='2'>
+        <property name='artifact.size' value='293074'/>
+        <property name='download.size' value='293074'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/org.eclipse.wb.swing.MigLayout_1.9.0.201608251253.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\org.eclipse.wb.swing.MigLayout_1.9.0.201608251253.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tooldataform' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='12343081'/>
+        <property name='download.size' value='12343081'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/tooldataform_1.0.0.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\tooldataform_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tooldataform.diagram_Datos' version='1.0.0.201702221655'>
+      <properties size='2'>
+        <property name='artifact.size' value='340013'/>
+        <property name='download.size' value='340013'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/tooldataform.diagram_Datos_1.0.0.201702221655.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\tooldataform.diagram_Datos_1.0.0.201702221655.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='patrones' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='181049'/>
+        <property name='download.size' value='181049'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/patrones_1.0.0.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\patrones_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swing.java6' version='1.9.0.201608251253'>
+      <properties size='2'>
+        <property name='artifact.size' value='86739'/>
+        <property name='download.size' value='86739'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/org.eclipse.wb.swing.java6_1.9.0.201608251253.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\org.eclipse.wb.swing.java6_1.9.0.201608251253.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tool.model' version='1.0.0.201702221655'>
+      <properties size='2'>
+        <property name='artifact.size' value='320892'/>
+        <property name='download.size' value='320892'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/tool.model_1.0.0.201702221655.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\tool.model_1.0.0.201702221655.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='patrones.edit' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='99153'/>
+        <property name='download.size' value='99153'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/patrones.edit_1.0.0.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\patrones.edit_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tooldataform.editor' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='298544'/>
+        <property name='download.size' value='298544'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/tooldataform.editor_1.0.0.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\tooldataform.editor_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swing.doc.user' version='1.9.0.201608251253'>
+      <properties size='2'>
+        <property name='artifact.size' value='8366870'/>
+        <property name='download.size' value='8366870'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/org.eclipse.wb.swing.doc.user_1.9.0.201608251253.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\org.eclipse.wb.swing.doc.user_1.9.0.201608251253.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tooldataform.diagram' version='1.0.0.201702221655'>
+      <properties size='2'>
+        <property name='artifact.size' value='4431845'/>
+        <property name='download.size' value='4431845'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/tooldataform.diagram_1.0.0.201702221655.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\tooldataform.diagram_1.0.0.201702221655.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tooldatform.menu' version='1.0.0.201702221655'>
+      <properties size='2'>
+        <property name='artifact.size' value='4876'/>
+        <property name='download.size' value='4876'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/tooldatform.menu_1.0.0.201702221655.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\tooldatform.menu_1.0.0.201702221655.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swing.MigLayout.lib' version='1.9.0.201608251253'>
+      <properties size='2'>
+        <property name='artifact.size' value='285414'/>
+        <property name='download.size' value='285414'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/org.eclipse.wb.swing.MigLayout.lib_1.9.0.201608251253.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\org.eclipse.wb.swing.MigLayout.lib_1.9.0.201608251253.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swt.widgets.baseline' version='1.9.0.201608251253'>
+      <properties size='2'>
+        <property name='artifact.size' value='49698'/>
+        <property name='download.size' value='49698'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/org.eclipse.wb.swt.widgets.baseline_1.9.0.201608251253.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\org.eclipse.wb.swt.widgets.baseline_1.9.0.201608251253.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='patrones.tests' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='42475'/>
+        <property name='download.size' value='42475'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse%20neon.2/plugins/patrones.tests_1.0.0.jar'/>
+        <property name='file.name' value='E:\eclipse neon.2\plugins\patrones.tests_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

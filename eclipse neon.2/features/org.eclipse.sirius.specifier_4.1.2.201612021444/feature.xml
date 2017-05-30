@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2015 Obeo
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License v1.0
+  which accompanies this distribution, and is available at
+  http://www.eclipse.org/legal/epl-v10.html
+
+  Contributors:
+       Obeo - Initial API and implementation
+-->
+<feature
+      id="org.eclipse.sirius.specifier"
+      label="%featureName"
+      version="4.1.2.201612021444"
+      provider-name="%providerName"
+      plugin="org.eclipse.sirius.editor">
+
+   <description url="http://www.eclipse.org/sirius">
+Sirius Specifier Environment.
+Install this if you want to create your own Sirius-based modelers.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.gmf" version="1.4.2"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.sirius"
+         download-size="1429"
+         install-size="3496"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.common"
+         download-size="231"
+         install-size="497"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.common.acceleo.aql"
+         download-size="34"
+         install-size="65"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.common.acceleo.aql.ide"
+         download-size="18"
+         install-size="30"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.common.acceleo.mtl"
+         download-size="67"
+         install-size="138"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.common.acceleo.mtl.ide"
+         download-size="32"
+         install-size="60"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.common.ui"
+         download-size="292"
+         install-size="588"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.common.ui.ext"
+         download-size="8"
+         install-size="12"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.sirius.diagram"
+         download-size="1339"
+         install-size="3711"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.diagram.formatdata"
+         download-size="56"
+         install-size="124"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.diagram.layoutdata"
+         download-size="56"
+         install-size="124"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.diagram.sequence"
+         download-size="706"
+         install-size="1864"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.diagram.sequence.edit"
+         download-size="183"
+         install-size="423"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.diagram.sequence.ui"
+         download-size="361"
+         install-size="920"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.diagram.ui"
+         download-size="5267"
+         install-size="9700"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.diagram.ui.ext"
+         download-size="8"
+         install-size="14"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.sirius.doc"
+         download-size="7859"
+         install-size="9920"
+         version="4.1.2.201612021444"/>
+
+   <plugin
+         id="org.eclipse.sirius.ecore.extender"
+         download-size="89"
+         install-size="189"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.editor"
+         download-size="1048"
+         install-size="2224"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.editor.diagram"
+         download-size="626"
+         install-size="1339"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.editor.sequence"
+         download-size="233"
+         install-size="529"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.editor.table"
+         download-size="173"
+         install-size="369"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.editor.tree"
+         download-size="92"
+         install-size="190"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.ext.base"
+         download-size="28"
+         install-size="49"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.ext.draw2d"
+         download-size="16"
+         install-size="27"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.ext.e3"
+         download-size="7"
+         install-size="10"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.ext.e3.ui"
+         download-size="40"
+         install-size="73"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.ext.emf"
+         download-size="17"
+         install-size="28"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.ext.emf.edit"
+         download-size="13"
+         install-size="31"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.ext.emf.tx"
+         download-size="9"
+         install-size="13"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.ext.emf.ui"
+         download-size="11"
+         install-size="16"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.ext.gef"
+         download-size="15"
+         install-size="24"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.ext.gmf.notation"
+         download-size="7"
+         install-size="10"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.ext.gmf.runtime"
+         download-size="32"
+         install-size="59"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.ext.jface"
+         download-size="8"
+         install-size="11"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.ext.swt"
+         download-size="9"
+         install-size="13"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.interpreter"
+         download-size="29"
+         install-size="53"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.synchronizer"
+         download-size="36"
+         install-size="64"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.table"
+         download-size="358"
+         install-size="960"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.table.ui"
+         download-size="567"
+         install-size="1279"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.table.ui.ext"
+         download-size="7"
+         install-size="11"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.sirius.tree"
+         download-size="245"
+         install-size="623"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.tree.ui"
+         download-size="218"
+         install-size="506"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.tree.ui.ext"
+         download-size="7"
+         install-size="11"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.ui"
+         download-size="1299"
+         install-size="2906"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.sirius.ui.ext"
+         download-size="14"
+         install-size="25"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.common.interpreter"
+         download-size="14"
+         install-size="22"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.properties"
+         download-size="198"
+         install-size="539"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.properties.edit"
+         download-size="163"
+         install-size="352"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.sirius.properties.ext.widgets.reference"
+         download-size="32"
+         install-size="68"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.properties.ext.widgets.reference.edit"
+         download-size="31"
+         install-size="56"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.sirius.editor.properties"
+         download-size="294"
+         install-size="623"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.editor.properties.ext.widgets.reference"
+         download-size="17"
+         install-size="31"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.ui.properties"
+         download-size="114"
+         install-size="290"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.ui.properties.ext.widgets.reference"
+         download-size="14"
+         install-size="24"
+         version="4.1.2.201612021444"
+         unpack="false"/>
+         
+</feature>

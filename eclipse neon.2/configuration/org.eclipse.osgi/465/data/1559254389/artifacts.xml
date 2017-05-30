@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='E:\eclipse\.eclipseextension' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1484775311410'/>
+    <property name='org.eclipse.update.site.policy' value='USER-EXCLUDE'/>
+    <property name='org.eclipse.update.site.list' value=''/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='13'>
+    <artifact classifier='osgi.bundle' id='tooldataform.tests' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='61113'/>
+        <property name='download.size' value='61113'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/plugins/tooldataform.tests_1.0.0.jar'/>
+        <property name='file.name' value='E:\eclipse\plugins\tooldataform.tests_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='patrones.editor' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='355660'/>
+        <property name='download.size' value='355660'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/plugins/patrones.editor_1.0.0.jar'/>
+        <property name='file.name' value='E:\eclipse\plugins\patrones.editor_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tooldataform.editor' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='298544'/>
+        <property name='download.size' value='298544'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/plugins/tooldataform.editor_1.0.0.jar'/>
+        <property name='file.name' value='E:\eclipse\plugins\tooldataform.editor_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tooldataform' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='12343081'/>
+        <property name='download.size' value='12343081'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/plugins/tooldataform_1.0.0.jar'/>
+        <property name='file.name' value='E:\eclipse\plugins\tooldataform_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tooldataform.diagram_Datos' version='1.0.0.201606211209'>
+      <properties size='2'>
+        <property name='artifact.size' value='339570'/>
+        <property name='download.size' value='339570'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/plugins/tooldataform.diagram_Datos_1.0.0.201606211209.jar'/>
+        <property name='file.name' value='E:\eclipse\plugins\tooldataform.diagram_Datos_1.0.0.201606211209.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tooldataform.edit' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='200328'/>
+        <property name='download.size' value='200328'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/plugins/tooldataform.edit_1.0.0.jar'/>
+        <property name='file.name' value='E:\eclipse\plugins\tooldataform.edit_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='patrones.edit' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='99153'/>
+        <property name='download.size' value='99153'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/plugins/patrones.edit_1.0.0.jar'/>
+        <property name='file.name' value='E:\eclipse\plugins\patrones.edit_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tooldataform.diagram' version='1.0.0.201606211209'>
+      <properties size='2'>
+        <property name='artifact.size' value='4406172'/>
+        <property name='download.size' value='4406172'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/plugins/tooldataform.diagram_1.0.0.201606211209.jar'/>
+        <property name='file.name' value='E:\eclipse\plugins\tooldataform.diagram_1.0.0.201606211209.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='patrones.tests' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='42475'/>
+        <property name='download.size' value='42475'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/plugins/patrones.tests_1.0.0.jar'/>
+        <property name='file.name' value='E:\eclipse\plugins\patrones.tests_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tool.model' version='1.0.0.201606211209'>
+      <properties size='2'>
+        <property name='artifact.size' value='12326841'/>
+        <property name='download.size' value='12326841'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/plugins/tool.model_1.0.0.201606211209.jar'/>
+        <property name='file.name' value='E:\eclipse\plugins\tool.model_1.0.0.201606211209.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='patrones' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='181049'/>
+        <property name='download.size' value='181049'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/plugins/patrones_1.0.0.jar'/>
+        <property name='file.name' value='E:\eclipse\plugins\patrones_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tooldataform.diagram.custom' version='1.0.0.201606211209'>
+      <properties size='2'>
+        <property name='artifact.size' value='33680'/>
+        <property name='download.size' value='33680'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/plugins/tooldataform.diagram.custom_1.0.0.201606211209.jar'/>
+        <property name='file.name' value='E:\eclipse\plugins\tooldataform.diagram.custom_1.0.0.201606211209.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='customplugin' version='1.0.0.201606211209'>
+      <properties size='2'>
+        <property name='artifact.size' value='137826'/>
+        <property name='download.size' value='137826'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/plugins/customplugin_1.0.0.201606211209.jar'/>
+        <property name='file.name' value='E:\eclipse\plugins\customplugin_1.0.0.201606211209.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>
